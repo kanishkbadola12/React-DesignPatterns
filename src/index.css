@@ -4,9 +4,19 @@
   font-weight: 400;
 }
 
-h2 {
+h1 {
   text-align: center;
   font-style: italic;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+input {
+  text-align: center;
+  font-size: xx-large;
 }
 
 .accordion-container {
@@ -44,4 +54,58 @@ h2 {
 
 .close {
   display: none;
+}
+
+.temperature-converter,
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 30%;
+  text-align: center;
+}
+
+.hours-format-btn {
+  display: flex;
+  width: 50%;
+  height: 5%;
+  justify-content: space-between;
+}
+
+.hours-format-btn > button {
+  width: 40%;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hoc-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 16px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: 16px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-around;
 }
