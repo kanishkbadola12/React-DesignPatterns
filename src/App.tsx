@@ -1,5 +1,6 @@
 import AccordionContainer from "./components/Composition/AccordionContainer";
-import TemperatureConverter from "./components/Context/TemperatureContainer";
+import Cart from "./components/Context/Cart/Cart";
+import TemperatureConverter from "./components/Context/Temperature/TemperatureContainer";
 import HOCWrapper from "./components/HOC/HOCWrapper";
 import ClockContainer from "./components/RenderProps/ClockContainer";
 
@@ -10,7 +11,8 @@ function App() {
       {/* <AccordionContainer /> */}
       {/* <TemperatureConverter /> */}
       {/* <ClockContainer /> */}
-      <HOCWrapper />
+      {/* <HOCWrapper /> */}
+      <Cart />
     </>
   )
 }

@@ -81,7 +81,7 @@ input {
   justify-content: space-between;
 }
 
-.hours-format-btn > button {
+.hours-format-btn>button {
   width: 40%;
 }
 
@@ -93,19 +93,47 @@ input {
   gap: 24px;
 }
 
+.text-body {
+  min-height: 45vh;
+}
+
 .hoc-wrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
   gap: 16px;
-  border: 1px solid #ccc; 
-  border-radius: 8px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
   padding: 16px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 16px;
 }
 
 .cta {
   display: flex;
   justify-content: space-around;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  gap: 32px;
+}
+
+.cart-item {
+  display: flex;
+  gap: 24px;
+  width: 80vw;
+}
+
+.cart-item-cta {
+  display: flex;
+  gap: 24px
+}
+
+.cart-item > div {
+  flex: 1;
 }
